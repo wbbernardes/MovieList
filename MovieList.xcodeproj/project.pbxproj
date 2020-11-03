@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,24 @@
 		B12CF533254F2FD0008988B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12CF532254F2FD0008988B0 /* Preview Assets.xcassets */; };
 		B12CF53E254F2FD0008988B0 /* MovieListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12CF53D254F2FD0008988B0 /* MovieListTests.swift */; };
 		B12CF549254F2FD0008988B0 /* MovieListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12CF548254F2FD0008988B0 /* MovieListUITests.swift */; };
+		B12CF55E254F2FED008988B0 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12CF55D254F2FED008988B0 /* Movie.swift */; };
+		B12CF564254F3380008988B0 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = B12CF563254F3380008988B0 /* ReactiveMoya */; };
+		B12CF566254F3380008988B0 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = B12CF565254F3380008988B0 /* CombineMoya */; };
+		B12CF568254F3380008988B0 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = B12CF567254F3380008988B0 /* RxMoya */; };
+		B12CF56A254F3380008988B0 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = B12CF569254F3380008988B0 /* Moya */; };
+		B12CF571254F33F5008988B0 /* BaseNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12CF570254F33F5008988B0 /* BaseNetworkService.swift */; };
+		B12CF579254F3420008988B0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12CF578254F3420008988B0 /* NetworkManager.swift */; };
+		B12CF57E254F3459008988B0 /* NetworkOperationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12CF57D254F3459008988B0 /* NetworkOperationMode.swift */; };
+		B12CF583254F3472008988B0 /* StubResponseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12CF582254F3472008988B0 /* StubResponseManager.swift */; };
+		B12CF59D254F35FD008988B0 /* MovieProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12CF59C254F35FD008988B0 /* MovieProvider.swift */; };
+		B12CF5A2254F361C008988B0 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12CF5A1254F361C008988B0 /* Bundle+Extension.swift */; };
+		B12CF5A7254F3670008988B0 /* apikey.plist in Resources */ = {isa = PBXBuildFile; fileRef = B12CF5A6254F3670008988B0 /* apikey.plist */; };
+		B12CF5AD254F36B7008988B0 /* MovieMock.json in Resources */ = {isa = PBXBuildFile; fileRef = B12CF5AC254F36B7008988B0 /* MovieMock.json */; };
+		B12CF5B2254F36FF008988B0 /* ProjectUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12CF5B1254F36FF008988B0 /* ProjectUtils.swift */; };
+		B12CF5B7254F38BD008988B0 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12CF5B6254F38BD008988B0 /* MovieService.swift */; };
+		B12CF5BF254F3A57008988B0 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12CF5BE254F3A57008988B0 /* ContentViewModel.swift */; };
+		B12CF5C4254F3A77008988B0 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12CF5C3254F3A77008988B0 /* BaseViewModel.swift */; };
+		B12CF5C9254F420D008988B0 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12CF5C8254F420D008988B0 /* MovieListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +63,20 @@
 		B12CF544254F2FD0008988B0 /* MovieListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12CF548254F2FD0008988B0 /* MovieListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListUITests.swift; sourceTree = "<group>"; };
 		B12CF54A254F2FD0008988B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B12CF55D254F2FED008988B0 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		B12CF570254F33F5008988B0 /* BaseNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNetworkService.swift; sourceTree = "<group>"; };
+		B12CF578254F3420008988B0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B12CF57D254F3459008988B0 /* NetworkOperationMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkOperationMode.swift; sourceTree = "<group>"; };
+		B12CF582254F3472008988B0 /* StubResponseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubResponseManager.swift; sourceTree = "<group>"; };
+		B12CF59C254F35FD008988B0 /* MovieProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieProvider.swift; sourceTree = "<group>"; };
+		B12CF5A1254F361C008988B0 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		B12CF5A6254F3670008988B0 /* apikey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = apikey.plist; sourceTree = "<group>"; };
+		B12CF5AC254F36B7008988B0 /* MovieMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MovieMock.json; sourceTree = "<group>"; };
+		B12CF5B1254F36FF008988B0 /* ProjectUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectUtils.swift; sourceTree = "<group>"; };
+		B12CF5B6254F38BD008988B0 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		B12CF5BE254F3A57008988B0 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		B12CF5C3254F3A77008988B0 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		B12CF5C8254F420D008988B0 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +84,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B12CF568254F3380008988B0 /* RxMoya in Frameworks */,
+				B12CF566254F3380008988B0 /* CombineMoya in Frameworks */,
+				B12CF56A254F3380008988B0 /* Moya in Frameworks */,
+				B12CF564254F3380008988B0 /* ReactiveMoya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +131,12 @@
 		B12CF52A254F2FCD008988B0 /* MovieList */ = {
 			isa = PBXGroup;
 			children = (
+				B12CF56F254F33D5008988B0 /* Base */,
+				B12CF56E254F33BC008988B0 /* Helpers */,
+				B12CF559254F2FDD008988B0 /* Model */,
+				B12CF587254F3489008988B0 /* Network */,
+				B12CF5BB254F3A28008988B0 /* Source */,
 				B12CF52B254F2FCD008988B0 /* MovieListApp.swift */,
-				B12CF52D254F2FCD008988B0 /* ContentView.swift */,
 				B12CF52F254F2FD0008988B0 /* Assets.xcassets */,
 				B12CF534254F2FD0008988B0 /* Info.plist */,
 				B12CF531254F2FD0008988B0 /* Preview Content */,
@@ -130,6 +170,96 @@
 			path = MovieListUITests;
 			sourceTree = "<group>";
 		};
+		B12CF559254F2FDD008988B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B12CF55D254F2FED008988B0 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B12CF56E254F33BC008988B0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B12CF5AB254F36A2008988B0 /* Mocks */,
+				B12CF578254F3420008988B0 /* NetworkManager.swift */,
+				B12CF582254F3472008988B0 /* StubResponseManager.swift */,
+				B12CF5B1254F36FF008988B0 /* ProjectUtils.swift */,
+				B12CF57D254F3459008988B0 /* NetworkOperationMode.swift */,
+				B12CF5A1254F361C008988B0 /* Bundle+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B12CF56F254F33D5008988B0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B12CF570254F33F5008988B0 /* BaseNetworkService.swift */,
+				B12CF5C3254F3A77008988B0 /* BaseViewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B12CF587254F3489008988B0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B12CF588254F3499008988B0 /* Service */,
+				B12CF589254F349E008988B0 /* Provider */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B12CF588254F3499008988B0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B12CF5A6254F3670008988B0 /* apikey.plist */,
+				B12CF5B6254F38BD008988B0 /* MovieService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B12CF589254F349E008988B0 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				B12CF59C254F35FD008988B0 /* MovieProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		B12CF5AB254F36A2008988B0 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				B12CF5AC254F36B7008988B0 /* MovieMock.json */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		B12CF5BB254F3A28008988B0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B12CF5BC254F3A35008988B0 /* View */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B12CF5BC254F3A35008988B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B12CF5BD254F3A3A008988B0 /* ContentView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B12CF5BD254F3A3A008988B0 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				B12CF52D254F2FCD008988B0 /* ContentView.swift */,
+				B12CF5C8254F420D008988B0 /* MovieListView.swift */,
+				B12CF5BE254F3A57008988B0 /* ContentViewModel.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +276,12 @@
 			dependencies = (
 			);
 			name = MovieList;
+			packageProductDependencies = (
+				B12CF563254F3380008988B0 /* ReactiveMoya */,
+				B12CF565254F3380008988B0 /* CombineMoya */,
+				B12CF567254F3380008988B0 /* RxMoya */,
+				B12CF569254F3380008988B0 /* Moya */,
+			);
 			productName = MovieList;
 			productReference = B12CF528254F2FCD008988B0 /* MovieList.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +353,9 @@
 				Base,
 			);
 			mainGroup = B12CF51F254F2FCD008988B0;
+			packageReferences = (
+				B12CF562254F3380008988B0 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = B12CF529254F2FCD008988B0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +372,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B12CF5AD254F36B7008988B0 /* MovieMock.json in Resources */,
 				B12CF533254F2FD0008988B0 /* Preview Assets.xcassets in Resources */,
+				B12CF5A7254F3670008988B0 /* apikey.plist in Resources */,
 				B12CF530254F2FD0008988B0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +401,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				B12CF52E254F2FCD008988B0 /* ContentView.swift in Sources */,
+				B12CF5C9254F420D008988B0 /* MovieListView.swift in Sources */,
+				B12CF5A2254F361C008988B0 /* Bundle+Extension.swift in Sources */,
+				B12CF59D254F35FD008988B0 /* MovieProvider.swift in Sources */,
+				B12CF57E254F3459008988B0 /* NetworkOperationMode.swift in Sources */,
+				B12CF571254F33F5008988B0 /* BaseNetworkService.swift in Sources */,
+				B12CF583254F3472008988B0 /* StubResponseManager.swift in Sources */,
+				B12CF579254F3420008988B0 /* NetworkManager.swift in Sources */,
+				B12CF5C4254F3A77008988B0 /* BaseViewModel.swift in Sources */,
 				B12CF52C254F2FCD008988B0 /* MovieListApp.swift in Sources */,
+				B12CF5BF254F3A57008988B0 /* ContentViewModel.swift in Sources */,
+				B12CF55E254F2FED008988B0 /* Movie.swift in Sources */,
+				B12CF5B2254F36FF008988B0 /* ProjectUtils.swift in Sources */,
+				B12CF5B7254F38BD008988B0 /* MovieService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +733,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B12CF562254F3380008988B0 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				branch = "15.0.0-alpha.1";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B12CF563254F3380008988B0 /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B12CF562254F3380008988B0 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		B12CF565254F3380008988B0 /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B12CF562254F3380008988B0 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		B12CF567254F3380008988B0 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B12CF562254F3380008988B0 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		B12CF569254F3380008988B0 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B12CF562254F3380008988B0 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B12CF520254F2FCD008988B0 /* Project object */;
 }
